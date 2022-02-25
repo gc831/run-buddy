@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -9,7 +10,6 @@ body {
      font-family: Arial, Helvetica, sans-serif;
      /* This is another one lol */
      color: #39a6b2;
-     background-color: black;
 }
 
 header {
@@ -47,3 +47,41 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 }
+
+footer {
+    background-color: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+footer h2 {
+    /* Displays side-by-side */
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    /* "margin:0" Means It means that left and right margin will 
+    take auto margin according to the width of the element and the 
+    width of the container */
+    margin: 0;
+}
+
+footer div {
+    float: right;
+    /* Affects text in ONLY the footer div container. NOT the footer
+    h2 element */
+    line-height: 1.5;
+    /* Centers the text within its container */
+    text-align: center;
+}
+
+footer a {
+    color: #024e76;
+}
+
+.hero {
+    height: 600px;
+    background-image: url(./images/hero-bg.jpg);
+}
+
+
+
