@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    /* Border-box allows us to include the padding and border in an element's total width and height */
     box-sizing: border-box;
 }
 
@@ -78,10 +79,63 @@ footer a {
     color: #024e76;
 }
 
-.hero {
-    height: 600px;
+.jumbotron {
+    height: 700px;
+    /* url() links a resource such as an image, web font, or GIF. */
     background-image: url(./images/hero-bg.jpg);
+    /* Background-size can set the size of the background image 
+    to its original size or make it stretched, repeated, or constrained to fit 
+    the available space. */
+    background-size: cover;
+    background-position: center;
+    /* Relative to the position of the previous parent container (header) */
+    position: relative;
 }
+
+.hero-form {
+    color: #024e76;
+    background-color: #fce138;
+    border: solid 3px #024e76;
+    width: 500px;
+    padding: 20px;
+    bottom: 120px;
+    right: 140px;
+    position: absolute;
+}
+
+.hero-form p {
+    margin: 5px 0px 15px 0px;
+}
+
+.form-input {
+    color: #024e76;
+    display: block;
+    font-size: 16px;
+    border: solid 1px #024e76;
+    padding: 7px 15px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.hero-form label {
+    margin: 0px  5px;
+}
+
+.hero-form button {
+    background-color: #024e76;
+    color: #fce138;
+    padding: 10px 20px;
+    font-size: 16px;
+    /* Border-radius give the button round edges */
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
 
 
 
