@@ -80,7 +80,7 @@ footer a {
 }
 
 .jumbotron {
-    height: 700px;
+    height: 600px;
     /* url() links a resource such as an image, web font, or GIF. */
     background-image: url(./images/hero-bg.jpg);
     /* Background-size can set the size of the background image 
