@@ -15,6 +15,9 @@ body {
 
 header {
     /* Applying styles to the header */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
     padding: 20px 35px;
     background-color: #39a6b2;
 }
@@ -24,7 +27,6 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
 }
 
 header a {
@@ -35,7 +37,8 @@ header a {
 
 header nav {
     /* Float makes element (<nav>) become an inline element, occupying 100% of parent width */
-    float: right;
+    /* float: right; */
+
     margin: 7px 0;
 }
 
