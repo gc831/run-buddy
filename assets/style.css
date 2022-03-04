@@ -58,6 +58,9 @@ header nav ul li a {
 }
 
 footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     background-color: #fce138;
     width: 100%;
     padding: 40px 35px;
@@ -65,7 +68,6 @@ footer {
 
 footer h2 {
     /* Displays side-by-side */
-    display: inline;
     color: #024e76;
     font-size: 30px;
     /* "margin:0" Means It means that left and right margin will 
@@ -75,7 +77,6 @@ footer h2 {
 }
 
 footer div {
-    float: right;
     /* Affects text in ONLY the footer div container. NOT the footer
     h2 element */
     line-height: 1.5;
@@ -88,7 +89,9 @@ footer a {
 }
 
 .jumbotron {
-    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     /* url() links a resource such as an image, web font, or GIF. */
     background-image: url(./images/hero-bg.jpg);
     /* Background-size can set the size of the background image 
@@ -96,19 +99,33 @@ footer a {
     the available space. */
     background-size: cover;
     background-position: center;
-    /* Relative to the position of the previous parent container (header) */
-    position: relative;
+    padding-bottom: 50px;
+    /* Relative to the position of the previous parent container (header) */  
+}
+
+.hero-cta {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.hero-cta h2 {
+    font-style: italic;
+    font-size: 55px;
+    color: #fce138;
 }
 
 .hero-form {
     color: #024e76;
     background-color: #fce138;
     border: solid 3px #024e76;
-    width: 500px;
     padding: 20px;
-    bottom: 120px;
     right: 140px;
-    position: absolute;
+    width: 40%;
+    margin: 3.5%;
 }
 
 .hero-form p {
