@@ -38,18 +38,23 @@ header a {
 header nav {
     /* Float makes element (<nav>) become an inline element, occupying 100% of parent width */
     /* float: right; */
-
     margin: 7px 0;
 }
 
-header nav ul li {
-    display: inline;
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
 header nav ul li a {
     margin: 0 30px;
+    /* Dims the color of the font */
     font-weight: lighter;
-    font-size: 22px;
+    /* By setting the value to 1.55vw, we're telling the browser that the font's size should be roughly 1.55% of the window's overall width. */
+    font-size: 1.5vw;
 }
 
 footer {
