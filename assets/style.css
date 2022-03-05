@@ -163,6 +163,7 @@ footer a {
     /* Tells the browser to calculate the left/right margins for us. Top and bottom are 0. Centers the content on the page */
     margin: 0 auto;
     padding-bottom: 50px;
+    text-align: center;
 }
 
 .steps {
@@ -296,6 +297,11 @@ footer a {
 
 .contact-info a {
     color: #fce138;
+}
+
+.flex-row h2 {
+    display: flex;
+    justify-content: space-around;
 }
 
 /* Reach Out Styles End */
