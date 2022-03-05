@@ -155,10 +155,6 @@ footer a {
     border-radius: 8px;
 }
 
-.intro {
-    text-align: center;
-}
-
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
@@ -170,16 +166,13 @@ footer a {
 }
 
 .steps {
-    text-align: center;
     background: #fce138;
 }
 
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
     padding: 50px 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
 }
 
@@ -216,7 +209,6 @@ footer a {
 }
 
 .trainers {
-    text-align: center;
     padding-bottom: 50px;
 }
 
@@ -239,6 +231,8 @@ footer a {
     width: 65%;
     }
 
+/* Utility classes */
+
 .text-left {
     text-align: left;
 }
@@ -246,6 +240,8 @@ footer a {
 .text-right {
     text-align: right;
 }
+
+/* Utility classes end */
 
 .trainer-bio h3 {
     font-size: 32px;
@@ -264,7 +260,6 @@ footer a {
 }
 
 .contact {
-    text-align: center;
     background: #024e76;
     padding-bottom: 40px;
 }
